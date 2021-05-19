@@ -6,4 +6,5 @@ To run this script, when you install it, you need to install a Chrome Driver - h
 
 # Setup
 To allow this to run, you need to create a throw away email as some people call it. Google gmail allows your to create emails for free. Its called a throw away email becasue you dont care what happens to it, this is becasuse you need to disable all authentication on the account to the bot can login to it. Instead of paying for twilio, i used a module called smtplib to send emails, this is becasue a phone number can be altered into an email. For instance, AT&T is phonenumber@mms.att.net. When you create this email, you will want to set its email and password on line 40 and 41. This hasnt been tested for any other email except Gmail.
+
 Use PIP to install all the modules
